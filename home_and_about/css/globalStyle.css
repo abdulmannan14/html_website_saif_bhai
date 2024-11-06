@@ -746,11 +746,20 @@ ul.navigation__sub-menu.navigation__sub-menu--first-level
     width: 180px;
     border: 1px solid lightgray;
 }
-
-navbar {
+/* 
+.navbar {
     display: flex;
     justify-content: end;
     width: 100%;
+    /* position: sticky;
+    top: 0;  
+    background-color: #333;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    z-index: 1000;   */
 
 }
 
@@ -762,7 +771,7 @@ navbar {
     align-items: center;
     gap: 2rem;
     font-weight: bold;
-    /*font-size: medium;*/
+    
     justify-content: end;
     margin-top: -4%;
 
@@ -780,4 +789,68 @@ navbar {
 
 .navbar ul li:active {
     color: white;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    position: sticky;
+    top: 0; /* Stick the navbar to the top */
+    z-index: 1000; /* Make sure it's on top of other content */
+    background-color: #333;
+    padding: 1em;
+    width: 100%; /* Ensure full-width navbar */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 50px; /* Adjust the logo size */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  .menu-item {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+  }
+  
+  .menu-item:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  /* Optional shadow for visual effect */
+  .navbar.scrolled {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  body {
+  padding-top: 70px; /* Adjust this value based on the height of the navbar */
 }
+.sticky-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    display: none; /* Initially hide the sticky navbar */
+    z-index: 1000;
+  }
