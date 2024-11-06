@@ -93,14 +93,34 @@
         <div class="masthead u-full-width masthead--secondary">
             <header class="header u-max-width">
                 <nav class="navbar">
-                    <ul>
+
+                    <a style="position: relative;bottom: 14rem !important;right: 1rem" href="../home_and_about/about.html"><img
+                            src="images/digital_2.png"></a>
+                    <ul style="bottom: 14rem !important;left: 2rem">
                         <li><a href="../home_and_about/index.html" class="menu-item">Services</a></li>
                         <li><a href="../home_and_about/about.html" class="menu-item">About us</a></li>
                         <li><a href="../contact/contact.html" class="menu-item">Contact us</a></li>
                         <li><a href="../home_and_about/privacy_policy.html" class="menu-item">Privacy Policy</a></li>
-                        <li><a href="../home_and_about/term_and_conditions.html" class="menu-item">Terms & Conditions</a></li>
+                        <li><a href="../home_and_about/term_and_conditions.html" class="menu-item">Terms &
+                            Conditions</a></li>
                     </ul>
                 </nav>
+                <!--                <nav class="navbar">-->
+                <!--                    <div class="row" style="display: flex !important;justify-content: space-between">-->
+                <!--                        <div class="col-6" style="position: relative;bottom: 13rem !important;">-->
+                <!--                            <a href="../home_and_about/about.html"><img src="images/digital_2.png"></a>-->
+                <!--                        </div>-->
+                <!--                        <ul class="col-6" style="bottom: 12rem !important;">-->
+                <!--                            <li><a href="../home_and_about/index.html" class="menu-item">Services</a></li>-->
+                <!--                            <li><a href="../home_and_about/about.html" class="menu-item">About us</a></li>-->
+                <!--                            <li><a href="../contact/contact.html" class="menu-item">Contact us</a></li>-->
+                <!--                            <li><a href="../home_and_about/privacy_policy.html" class="menu-item">Privacy Policy</a>-->
+                <!--                            </li>-->
+                <!--                            <li><a href="../home_and_about/term_and_conditions.html" class="menu-item">Terms &-->
+                <!--                                Conditions</a></li>-->
+                <!--                        </ul>-->
+                <!--                    </div>-->
+                <!--                </nav>-->
                 <div class="header__inner">
                     <div class="hero hero--secondary">
                         <div class="hero__inner u-display-flex u-flex-direction-column u-flex-direction-row@lg u-align-items-center@lg u-justify-content-space-around@lg">
@@ -214,22 +234,66 @@
         </div>
     </main>
 
-    <div id="footer"></div>
+    <div id="footer" style="overflow: hidden;">
+
+
+        <style>
+            .Credit-Card-Logos {
+                width: 350px;
+                margin: 0 auto;
+            }
+
+            .Credit-Card-Logos img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            @media (max-width: 500px) {
+                .Credit-Card-Logos {
+                    width: 300px;
+                }
+            }
+        </style>
+
+
+        <footer class="footer footer--">
+            <button title="Back to top" class="scroll u-display-flex u-align-items-center" id="toTopButton">
+                <svg class="svg svg--top-arrow" aria-hidden="true">
+                    <use xlink:href="/assets/svg/sprite-420bf4fd1e.svg#to-top-arrow"></use>
+                </svg>
+                <span>TOP</span>
+            </button>
+
+            <div class="footer__inner">
+                <svg class="svg svg--lightning footer__lightning" aria-hidden="true">
+                    <use xlink:href="/assets/svg/sprite-420bf4fd1e.svg#lightning"></use>
+                </svg>
+
+                <div class="Credit-Card-Logos">
+                    <img src="images/pngwing.com_2.png" alt="">
+                </div>
+
+                <hr>
+
+                <div class="footer--secondary" style="display: flex; justify-content: center;">
+                    <div class="footer__contact">
+                        <p>
+                            utilitysavingshub.us is operated on behalf of Utility Savings Hub,
+                            LLC
+                        </p>
+                        <p style="text-align: center;">
+                            Utility Savings Hub, LLC. a Home Expertz Company - <br>5830 E
+                            2nd St Ste 7000 Casper, WY 82609<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
     <script data-cfasync="false" src="js/email-decode.min.js"></script>
-    <script>
-        fetch('/footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer').innerHTML = data;
-                // Place the scrollToTop functionality after fetching and injecting the footer
-                document.getElementById('toTopButton').addEventListener('click', () => {
-                    window.scrollTo({
-                        top: 0,
-                        behavior: 'smooth'
-                    });
-                });
-            });
-    </script>
 
     <script>
         function submitForm(event) {
