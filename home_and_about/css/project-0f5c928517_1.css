@@ -11,7 +11,7 @@
   padding: 50px 40px;
   /* margin: 0px 20px; */
   border-radius: 12px;
-  border: 1px solid #f15a29;
+  border: 1px solid #ccc;
   box-shadow: 0px 4px 16px rgba(254, 205, 211, 0.1),
     0px 8px 24px rgba(254, 205, 211, 0.1),
     0px 16px 56px rgba(254, 205, 211, 0.1);
@@ -21,7 +21,7 @@
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 20px;
-  color: #ffb427;
+  color: #954a9c;
 }
 
 .content input {
@@ -93,7 +93,7 @@
   border-radius: 12px;
   transition: all 0.5s ease;
 
-  background: linear-gradient(120deg, #f15a29, #ffb427 90%) !important;
+  background: linear-gradient(120deg, #ccc, #954a9c 90%) !important;
 }
 
 @media (max-width:768px) {
@@ -192,7 +192,7 @@
 }
 
 .content .list label:hover {
-  color: #ffb427 !important;
+  color: #954a9c !important;
 }
 .content .list label {
   color: black;

@@ -42,7 +42,7 @@ article.content.content--primary.u-width-3\/4\@xl {
 }
 
 :not(.wp-sticky-zip).headroom--not-top li a:hover {
-    color: #ffb427 !important;
+    color: #954a9c !important;
 }
 
 .navigation__logo img {
@@ -61,16 +61,16 @@ article.content.content--primary.u-width-3\/4\@xl {
 }
 
 .landing__state-search::after {
-    background-image: linear-gradient(120deg, #ffb427, #f15a29 90%) !important;
+    background-image: linear-gradient(120deg, #954a9c, #ccc 90%) !important;
 }
 
 h2,
 h3 {
-    color: #ffb427 !important;
+    color: #954a9c !important;
 }
 
 ul.navigation__sub-menu.navigation__sub-menu--first-level li a:hover {
-    color: #ffb427 !important;
+    color: #954a9c !important;
 }
 
 :not(.wp-sticky-zip).headroom--not-top
@@ -84,7 +84,7 @@ a {
 ul.navigation__sub-menu.navigation__sub-menu--first-level
 li
 a:hover {
-    color: #ffb427 !important;
+    color: #954a9c !important;
 }
 
 :not(.wp-sticky-zip).headroom--not-top .navigation .navigation__sub-nav-link {
@@ -120,7 +120,7 @@ h4 {
 [type="reset"],
 [type="submit"],
 button {
-    background: linear-gradient(120deg, #f15a29, #ffb427 90%) !important;
+    background: linear-gradient(120deg, #ccc, #954a9c 90%) !important;
 }
 
 .is-open .navigation .navigation__nav-link {
@@ -128,7 +128,7 @@ button {
 }
 
 .masthead {
-    background-image: linear-gradient(60deg, #ffb427, #f15a29 70%) !important;
+    background-image: linear-gradient(60deg, #954a9c, #ccc 70%) !important;
     /* animation: gradient 5s ease infinite;
     background-size: 400% 400% !important; */
 }
@@ -191,7 +191,7 @@ button {
     color: black;
     cursor: pointer;
     transition: 400ms;
-    border: 1.5px solid #f15a29;
+    border: 1.5px solid #ccc;
     padding: 2rem;
 }
 
@@ -542,7 +542,7 @@ button.contact_form_submit {
     border-radius: 30px;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
-    background: linear-gradient(120deg, #f15a29, #ffb427 90%) !important;
+    background: linear-gradient(120deg, #ccc, #954a9c 90%) !important;
     color: #fff;
     padding: 12px 25px;
     display: inline-block;
@@ -576,7 +576,7 @@ button.contact_form_submit {
 }
 
 .scrolled .navigation__menu li a:hover {
-    color: #ffb427 !important;
+    color: #954a9c !important;
 }
 
 .scrolled .navigation__logo img {
@@ -592,7 +592,7 @@ button.contact_form_submit {
 .scrolled
 ul.navigation__sub-menu.navigation__sub-menu--first-level
 .navigation__sub-nav-link:hover {
-    color: #ffb427 !important;
+    color: #954a9c !important;
 }
 
 .navigation .navigation__nav-link::after {
@@ -602,7 +602,7 @@ ul.navigation__sub-menu.navigation__sub-menu--first-level
 
 @media (max-width: 1270px) {
     .navigation .navigation__menu {
-        background: linear-gradient(60deg, #ffb427, #f15a29 70%) !important;
+        background: linear-gradient(60deg, #954a9c, #ccc 70%) !important;
     }
 }
 
@@ -628,20 +628,20 @@ ul.navigation__sub-menu.navigation__sub-menu--first-level
     }
 
     .sub-active {
-        color: #ffb427 !important;
+        color: #954a9c !important;
     }
 }
 
 .scrolled .navigation__menu li .active {
-    color: #ffb427 !important;
+    color: #954a9c !important;
 }
 
 .sub-active {
-    color: #ffb427 !important;
+    color: #954a9c !important;
 }
 
 .scrolled .sub-active {
-    color: #ffb427 !important;
+    color: #954a9c !important;
 }
 
 .sub-active {
@@ -650,11 +650,11 @@ ul.navigation__sub-menu.navigation__sub-menu--first-level
 
 
 /* .scrolled ul.navigation__sub-menu.navigation__sub-menu--first-level .navigation__sub-nav-link{
-      color: #ffb427 !important;
+      color: #954a9c !important;
 } */
 
 .scrolled #header-menu li a {
-    color: #ffb427;
+    color: #954a9c;
 }
 
 
@@ -719,7 +719,7 @@ ul.navigation__sub-menu.navigation__sub-menu--first-level
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border: 1px solid #f15a29;
+    border: 1px solid #ccc;
     border-radius: 1rem;
 }
 
@@ -729,13 +729,13 @@ ul.navigation__sub-menu.navigation__sub-menu--first-level
             bisque 60%,
             rgb(255, 231, 222) 88%,
             rgb(255, 211, 195) 40%,
-            #f15a29 48%
+            #ccc 48%
     );
-    color: #ffb427;
+    color: #954a9c;
 }
 
 .flip-card-back {
-    background-image: linear-gradient(60deg, #ffb427, #f15a29 70%) !important;
+    background-image: linear-gradient(60deg, #954a9c, #ccc 70%) !important;
     color: white;
     transform: rotateY(180deg);
 }
